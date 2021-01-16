@@ -1,0 +1,64 @@
+
+  .danger-sm{
+    color: red;
+  }
+  .border-danger{
+    border: 1px solid red;
+  }
+  .custom-file-input-css {
+    color: transparent;
+  }
+  .custom-file-input-css::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input-css::before {
+    /*content: 'Pilih Bukti';*/
+    font-family: FontAwesome;
+    content: '\f002'' Pilih Bukti';
+    color: #fff;
+    display: inline-block;
+    background: #428bca;
+    border-color: #357ebd;
+    border-radius: 3px;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 10pt;
+  }
+  .custom-file-input-css:hover::before {
+    border-color: black;
+  }
+  .custom-file-input-css:active {
+    outline: 0;
+  }.image-preview{
+      padding: 10px;
+      width: 150px;
+      height: 150px;      
+      border: 2px solid #dddddd;
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #cccccc;
+    }
+    .image-preview__image{
+      width: 100%;
+    }
+    #img{
+      padding: 10px;
+      margin: 20px;
+      width: 300px;
+      min-height: 100px;
+      max-height: 300px;
+      object-fit: cover;
+    }
+    .border-custom{
+      background: #FFFFFF;
+      box-shadow: 0px 30px 70px rgba(223, 227, 234, 0.5);
+    }
